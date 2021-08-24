@@ -466,7 +466,8 @@
 	
 	var inter = setInterval(countprogress, 100);
 var toolong = setTimeout(() => {
-kill();
+progress.innerHTML = "169%";
+setTimeout(kill, 3000)
 }, 20*1000)
 	
 	let imggg = document.querySelector("#poster");
