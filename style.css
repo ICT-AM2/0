@@ -118,6 +118,9 @@ h2{
 
 .footer{
 	height: auto;
+position: relative;
+z-index: 99;
+box shadow: 0 0 10px 8px rgba(0,0,0,0.8);
 }
 
 
@@ -199,10 +202,14 @@ height: 360px;
   }
 
 .aruu{
-
 	overflow-wrap: break-word;
 	max-width: initial;
 	white-space:pre-wrap;
 	overflow: hidden;
 }
+
+.letters{
+ grid-template-rows: 1fr 1fr 1fr;
+}
+
 }
