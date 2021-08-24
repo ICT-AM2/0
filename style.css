@@ -155,6 +155,7 @@ box shadow: 0 0 10px 8px rgba(0,0,0,0.8);
 	border-radius: 10px;
 	width: 80px;
 	height: 80px;
+background: none;
 	overflow: hidden;
 }
 
@@ -170,6 +171,7 @@ background: none;
 }
 
 .lds-hourglass {
+background: none;
   display: inline-block;
   position: relative;
   display: block;
