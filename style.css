@@ -195,7 +195,7 @@ box shadow: 0 0 10px 8px rgba(0,0,0,0.8);
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 840px) {
   iframe {
     width: 720px;
 height: 360px;
