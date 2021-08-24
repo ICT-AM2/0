@@ -465,6 +465,9 @@
 	}
 	
 	var inter = setInterval(countprogress, 100);
+var toolong = setTimeout(() => {
+kill();
+}, 20*1000)
 	
 	let imggg = document.querySelector("#poster");
 	imggg.addEventListener('load', function() {
